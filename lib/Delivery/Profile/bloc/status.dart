@@ -1,0 +1,10 @@
+abstract class ProfileDeliveryStatus {}
+
+class ProfileDeliveryInitializeStatus extends ProfileDeliveryStatus{}
+class ProfileDeliverySuccessStatus extends ProfileDeliveryStatus{}
+class ProfileDeliveryErrorStatus extends ProfileDeliveryStatus{}
+class ProfileDeliveryLoadingStatus extends ProfileDeliveryStatus{}
+
+class EditProfileDeliverySuccessStatus extends ProfileDeliveryStatus{}
+class EditProfileDeliveryErrorStatus extends ProfileDeliveryStatus{}
+class EditProfileDeliveryLoadingStatus extends ProfileDeliveryStatus{}

@@ -1,0 +1,10 @@
+abstract class ProfileProviderStatus {}
+
+class ProfileProviderInitializeStatus extends ProfileProviderStatus{}
+class ProfileProviderSuccessStatus extends ProfileProviderStatus{}
+class ProfileProviderErrorStatus extends ProfileProviderStatus{}
+class ProfileProviderLoadingStatus extends ProfileProviderStatus{}
+
+class EditProfileProviderSuccessStatus extends ProfileProviderStatus{}
+class EditProfileProviderErrorStatus extends ProfileProviderStatus{}
+class EditProfileProviderLoadingStatus extends ProfileProviderStatus{}
