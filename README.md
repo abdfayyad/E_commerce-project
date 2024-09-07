@@ -1,1 +1,22 @@
-We have four actors in the system, the first is the admin, who adds, displays and manages products in the application, and also adds and displays deliveries. The orders requested by the customer can be displayed and shipped to him, and he can specify the delivery person who delivers them to him. The second is the provider, who the admin adds to the system and adds and displays products. The admin can also have a percentage of the profit on each product he sells. The third is the delivery person, who displays the products he delivered to customers and confirms the order arrival process. The fourth is the customer, who displays all the products in the system and adds what he wants to his basket and buys all the products in this basket
+This project is an e-commerce platform with four main actors: Admin, Provider, Delivery Person, and Customer. Each actor has distinct roles and responsibilities within the system:
+
+Admin:
+
+Manages the system, including adding, displaying, and managing products.
+Adds and displays delivery details.
+Handles customer orders, assigns delivery personnel, and ensures shipping.
+Can receive a percentage of the profit from products sold by providers.
+Provider:
+
+Added by the admin to the system.
+Can add and display their own products.
+Sells products while the admin may take a percentage of the profit.
+Delivery Person:
+
+Displays the products they delivered to customers.
+Confirms the completion of the delivery process.
+Customer:
+
+Can browse and view all products available in the system.
+Adds products to a cart and completes purchases for the items in the cart.
+This system streamlines the e-commerce process by integrating these roles to provide an efficient and user-friendly shopping and delivery experience.
